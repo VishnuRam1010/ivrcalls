@@ -1,0 +1,195 @@
+[
+  {
+    "hospital_id": "H001",
+    "hospital_name": "Camphor Community Hospital",
+    "data_type": "DEMO/SIMULATED",
+    "location": "Coimbatore North (Demo Sector)",
+    "distance_from_demo_location_km": 2.4,
+    "contact_number": "+91-422-555-0101",
+    "emergency": {
+      "available": true,
+      "timing": "24/7"
+    },
+    "pregnancy_care": {
+      "available": false
+    },
+    "child_care": {
+      "available": true,
+      "timing": "8:00 AM - 8:00 PM"
+    },
+    "appointment_booking": {
+      "available": true,
+      "available_slots": [
+        "09:00 AM",
+        "11:30 AM",
+        "02:30 PM"
+      ]
+    },
+    "specialist_consultation": {
+      "available": true,
+      "specialists": {
+        "heart": {
+          "available": true,
+          "timing": "10:00 AM - 1:00 PM"
+        },
+        "brain_nerve": {
+          "available": false
+        },
+        "skin": {
+          "available": true,
+          "timing": "2:00 PM - 5:00 PM"
+        },
+        "bone_joint": {
+          "available": false
+        },
+        "eye": {
+          "available": false
+        }
+      }
+    }
+  },
+  {
+    "hospital_id": "H002",
+    "hospital_name": "RuralCare Medical Centre",
+    "data_type": "DEMO/SIMULATED",
+    "location": "Coimbatore East (Demo Sector)",
+    "distance_from_demo_location_km": 4.1,
+    "contact_number": "+91-422-555-0102",
+    "emergency": {
+      "available": false
+    },
+    "pregnancy_care": {
+      "available": true,
+      "timing": "24/7"
+    },
+    "child_care": {
+      "available": true,
+      "timing": "9:00 AM - 5:00 PM"
+    },
+    "appointment_booking": {
+      "available": true,
+      "available_slots": [
+        "10:00 AM",
+        "01:00 PM",
+        "04:00 PM"
+      ]
+    },
+    "specialist_consultation": {
+      "available": true,
+      "specialists": {
+        "heart": {
+          "available": false
+        },
+        "brain_nerve": {
+          "available": false
+        },
+        "skin": {
+          "available": false
+        },
+        "bone_joint": {
+          "available": true,
+          "timing": "11:00 AM - 3:00 PM"
+        },
+        "eye": {
+          "available": true,
+          "timing": "9:00 AM - 1:00 PM"
+        }
+      }
+    }
+  },
+  {
+    "hospital_id": "H003",
+    "hospital_name": "HealthBridge Hospital",
+    "data_type": "DEMO/SIMULATED",
+    "location": "Coimbatore South (Demo Sector)",
+    "distance_from_demo_location_km": 6.3,
+    "contact_number": "+91-422-555-0103",
+    "emergency": {
+      "available": true,
+      "timing": "24/7"
+    },
+    "pregnancy_care": {
+      "available": true,
+      "timing": "8:00 AM - 6:00 PM"
+    },
+    "child_care": {
+      "available": false
+    },
+    "appointment_booking": {
+      "available": false,
+      "available_slots": []
+    },
+    "specialist_consultation": {
+      "available": true,
+      "specialists": {
+        "heart": {
+          "available": true,
+          "timing": "2:00 PM - 6:00 PM"
+        },
+        "brain_nerve": {
+          "available": true,
+          "timing": "10:00 AM - 2:00 PM"
+        },
+        "skin": {
+          "available": false
+        },
+        "bone_joint": {
+          "available": false
+        },
+        "eye": {
+          "available": false
+        }
+      }
+    }
+  },
+  {
+    "hospital_id": "H004",
+    "hospital_name": "VillageCare Specialty Centre",
+    "data_type": "DEMO/SIMULATED",
+    "location": "Coimbatore West (Demo Sector)",
+    "distance_from_demo_location_km": 8.0,
+    "contact_number": "+91-422-555-0104",
+    "emergency": {
+      "available": true,
+      "timing": "24/7"
+    },
+    "pregnancy_care": {
+      "available": false
+    },
+    "child_care": {
+      "available": true,
+      "timing": "10:00 AM - 4:00 PM"
+    },
+    "appointment_booking": {
+      "available": true,
+      "available_slots": [
+        "11:00 AM",
+        "03:00 PM",
+        "05:00 PM"
+      ]
+    },
+    "specialist_consultation": {
+      "available": true,
+      "specialists": {
+        "heart": {
+          "available": false
+        },
+        "brain_nerve": {
+          "available": false
+        },
+        "skin": {
+          "available": true,
+          "timing": "10:00 AM - 1:00 PM"
+        },
+        "bone_joint": {
+          "available": true,
+          "timing": "2:00 PM - 5:00 PM"
+        },
+        "eye": {
+          "available": true,
+          "timing": "1:00 PM - 4:00 PM"
+        }
+      }
+    }
+  }
+]
